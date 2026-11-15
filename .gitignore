@@ -1,0 +1,13 @@
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.gz
+*.zip
+*.7z
+*.pem
+*.pfx
+*.p12
+.env
+.env.*

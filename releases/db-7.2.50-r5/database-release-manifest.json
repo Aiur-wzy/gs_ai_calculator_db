@@ -1,0 +1,463 @@
+{
+  "channel": "dev",
+  "component_policy": {
+    "components": {
+      "equipment": {
+        "execution_authority": "validated_projection",
+        "requirement": "required",
+        "role": "core_data"
+      },
+      "mechanic_semantics": {
+        "execution_authority": "none",
+        "requirement": "optional",
+        "role": "knowledge"
+      },
+      "runtime_config": {
+        "execution_authority": "agent_materialization",
+        "requirement": "optional",
+        "role": "task_capability"
+      }
+    },
+    "contract": "genshin-database-component-policy-v1"
+  },
+  "contract": "genshin-database-release-manifest-v3",
+  "data_contract_version": 1,
+  "database": {
+    "datasets": {
+      "equipment": {
+        "lines": {
+          "beta": {
+            "built_at": null,
+            "counts": null,
+            "quality_summary": null,
+            "schema_version": null,
+            "state": "missing",
+            "upstream_commit": null
+          },
+          "release": {
+            "built_at": "2026-11-04T12:47:50-03:00",
+            "counts": {
+              "artifact_sets": 68,
+              "artifacts": 4412,
+              "codex_artifact_sets": 65,
+              "codex_artifacts": 633,
+              "codex_weapons": 259,
+              "equip_affixes": 1446,
+              "weapons": 291
+            },
+            "quality_summary": {
+              "missing_descriptions": 129,
+              "missing_effect_relations": 2,
+              "missing_names": 47,
+              "missing_value_configs": 708,
+              "unmapped_prop_types": 5
+            },
+            "schema_version": 1,
+            "state": "ready",
+            "upstream_commit": "f11cf545a7eee32a29999f960ebfba305f896ed3"
+          }
+        },
+        "supported_schema_versions": [
+          1
+        ]
+      },
+      "mechanic_semantics": {
+        "lines": {
+          "beta": {
+            "counts": {
+              "descriptors": 0,
+              "facts": 0,
+              "heads": 0
+            },
+            "execution_support": "not_evaluated",
+            "schema_version": null,
+            "state": "missing"
+          },
+          "release": {
+            "counts": {
+              "descriptors": 13,
+              "facts": 47,
+              "heads": 55
+            },
+            "execution_support": "not_evaluated",
+            "schema_version": 1,
+            "state": "ready"
+          }
+        },
+        "schema_version": 1
+      },
+      "runtime_config": {
+        "indexer_version": "7",
+        "lines": {
+          "beta": {
+            "execution_support": "not_evaluated",
+            "index_state": "missing",
+            "schema_version": null,
+            "snapshot_id": null,
+            "state": "missing",
+            "upstream_commit": null
+          },
+          "release": {
+            "built_at": "2026-11-04T12:47:50-03:00",
+            "counts": {
+              "runtime_definition": 214076,
+              "runtime_material_reference": 427,
+              "runtime_object_reference": 63563,
+              "runtime_parameter_binding": 6240,
+              "runtime_reference": 169462,
+              "runtime_source": 2754
+            },
+            "execution_support": "not_evaluated",
+            "index_state": "ready",
+            "indexer_version": "7",
+            "manifest_fingerprint": "854542ee56b05feb24a1f565e47c84352ea16064aaa097b613202d0363faacbf",
+            "normalization": {
+              "mapping_fingerprint": "cb52e3904c2c67dddc9f9d0a48301b760e44f032d530a2e82b39cc35c899a648",
+              "normalization_version": 2,
+              "profile_id": "upstream-f11cf545-reviewed-schema-v1",
+              "upstream_commit": "f11cf545a7eee32a29999f960ebfba305f896ed3"
+            },
+            "normalization_state": "ready",
+            "profile_id": "upstream-combat-catalog-v1",
+            "profile_version": 1,
+            "reference_states": {
+              "ambiguous": 156,
+              "external_asset": 10689,
+              "missing": 165,
+              "resolved": 148903,
+              "unsupported_reference_form": 9549
+            },
+            "schema_version": 1,
+            "snapshot_id": "854d05cd5f88fb6a0f5903a38b75d675ef437902bf1b98f75de43b0834cc44eb",
+            "source_capabilities": {
+              "ability": {
+                "requirement": "required",
+                "state": "ready"
+              },
+              "ability_path": {
+                "requirement": "required",
+                "state": "ready"
+              },
+              "animation_pattern": {
+                "requirement": "optional",
+                "state": "unavailable"
+              },
+              "animator": {
+                "requirement": "optional",
+                "state": "unavailable"
+              },
+              "avatar": {
+                "requirement": "required",
+                "state": "ready"
+              },
+              "excel": {
+                "requirement": "required",
+                "state": "ready"
+              },
+              "gadget": {
+                "requirement": "optional",
+                "state": "ready"
+              },
+              "gadget_excel": {
+                "requirement": "required",
+                "state": "ready"
+              },
+              "global_combat": {
+                "requirement": "optional",
+                "state": "ready"
+              },
+              "material_excel": {
+                "requirement": "required",
+                "state": "ready"
+              },
+              "public_config": {
+                "requirement": "required",
+                "state": "ready"
+              },
+              "talent": {
+                "requirement": "required",
+                "state": "ready"
+              },
+              "text_map": {
+                "requirement": "required",
+                "state": "ready"
+              }
+            },
+            "source_capability_contract": "genshin-runtime-source-capabilities-v1",
+            "source_capability_state": "degraded",
+            "state": "ready",
+            "upstream_commit": "f11cf545a7eee32a29999f960ebfba305f896ed3"
+          }
+        },
+        "profile_id": "upstream-combat-catalog-v1",
+        "profile_version": 1,
+        "supported_indexer_versions": [
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "supported_schema_versions": [
+          1
+        ]
+      }
+    },
+    "game_version": "7.2.50",
+    "indexer_version": "7",
+    "meta_fingerprint": "6251294461348e8077f20062eae3d4146cdaa823cd6c52eff01fd94c5b1a6b4d",
+    "normalization_version": "2",
+    "release_core": {
+      "contract": "genshin-database-release-core-v1",
+      "mutable_tables": [
+        "annotation",
+        "character_note",
+        "import_log",
+        "mechanic_descriptor",
+        "mechanic_semantic_fact",
+        "mechanic_semantic_head",
+        "mechanic_semantic_override",
+        "mechanic_semantic_review"
+      ],
+      "root_sha256": "990b0408b313c61f3c5d7dc50db582f32cea1713e8f0ec1d3a6285450379ada7",
+      "tables": {
+        "annotation": {
+          "content_sha256": "a92cea090ca2ece6de4a03b8510db990e57074cf9719a4ff2adf0d9837491ec3",
+          "row_count": 0,
+          "schema_sha256": "c6beed1a7f7c92026127bb30dd4e35817ad7c66958e38cdcf5a08c562ab96cbf"
+        },
+        "artifact": {
+          "content_sha256": "01194ed99950c0181cedb5462003bf9532d5255e1b979945b46add6f0aba29a0",
+          "row_count": 4412,
+          "schema_sha256": "3856b44d834a23aa26055cd0dd8606d677cb94718524205b59348a300d89d26e"
+        },
+        "artifact_codex": {
+          "content_sha256": "7373629a1fa1dbac35c199e48917d51f15e15dad4e16cbeae7474c87b1656120",
+          "row_count": 133,
+          "schema_sha256": "7cd64da0658ca9908e2dbcff5a243b13511cc4321a6a9b4700ac8126d3855a4a"
+        },
+        "artifact_codex_item": {
+          "content_sha256": "111ec3e6a6c394c2608714e4fe872b6b1e61bf6f6eef607aa080dae7d6c3e8a4",
+          "row_count": 633,
+          "schema_sha256": "7bd2c1030887af7c4f373d72b1e86c905d305fb406cfd5e56fca87b709b6516d"
+        },
+        "artifact_level": {
+          "content_sha256": "e81080845ea9d8e1aec23de8d2f35905c5f92851ecc0aea36e648071fa5e9bf4",
+          "row_count": 101,
+          "schema_sha256": "e147bcc16d64b9b8efecf3f813363610bfe872f599d787310bd025c87356bea6"
+        },
+        "artifact_main_prop": {
+          "content_sha256": "349b74db209c58677b391a0e69e614a66482b81cbe1e9f4bd7f2f8b9d5651cb8",
+          "row_count": 66,
+          "schema_sha256": "1cb78e6399243ad41751e0203e20645bff913615570eccc958517f033f34a214"
+        },
+        "artifact_set": {
+          "content_sha256": "0b1994050d97b12b2b5b1a8a99a915d4f2c9c5fd47278407183aff3e2f6df2f8",
+          "row_count": 68,
+          "schema_sha256": "82c45fb1c90f50f812c8697c508e3efc3b5a36f0cfdc329fbb8c0c416d0e99da"
+        },
+        "artifact_set_effect": {
+          "content_sha256": "9919e906b834f537c3eb1b62b28c5e9cc82c23fe11d7e31bfce12191f1f7a7e9",
+          "row_count": 131,
+          "schema_sha256": "eda62c39ae0450ea550ab45986f420e63d71097897bd3c51cac13afa7c17c1b0"
+        },
+        "artifact_substat": {
+          "content_sha256": "70ead71b0542e02c01ee6d664d6a60fcc09e465144246aae1a79541243e4e869",
+          "row_count": 350,
+          "schema_sha256": "a4fd689ba922cc3c8a70979f255c9773de00066c4d77743ecfdfc21ef9fa3086"
+        },
+        "character": {
+          "content_sha256": "ad8f46e6bcdad0e0a800b097fdff368bda36302dec8bc59049acced74a00e38f",
+          "row_count": 171,
+          "schema_sha256": "9bd6723e05f0673c5ba435c592a250bc8f13730a9dae123bd0592ada77314d0e"
+        },
+        "character_note": {
+          "content_sha256": "a92cea090ca2ece6de4a03b8510db990e57074cf9719a4ff2adf0d9837491ec3",
+          "row_count": 0,
+          "schema_sha256": "8bc14de06bdd103ba46833e67b232d0195b3c99a962eaf634725d1de271c0b46"
+        },
+        "data_component": {
+          "content_sha256": "66a412673af4699a978241bbc875611502ebf34c3856cfed1947bf17e26b9e25",
+          "row_count": 2,
+          "schema_sha256": "b2534be03a04bf6094ae2b716f672c0e92129d8546529d5249c010057f2bcef6"
+        },
+        "entity_alias": {
+          "content_sha256": "def94e2fa36423d92128ea50dddbd035b2d10000271928aa3ba52f3a3690b26c",
+          "row_count": 663,
+          "schema_sha256": "af14bebff3f40b1555a3149c4401e434e708d9f8fbca8acd00732d132384b0dc"
+        },
+        "entity_publication": {
+          "content_sha256": "a2b40b03a9d37f19e8096892ee67b97c748e9155d52993124c565c376abc5b92",
+          "row_count": 530,
+          "schema_sha256": "9a336217d638bc0fdbc08056b1472b1cc202d4ad9a5c865d75179540d1377544"
+        },
+        "equip_affix": {
+          "content_sha256": "5b83bb1308be793bfb1a5e1a652094a68ac4fdf69f76704e1d78cfde2bfb70c6",
+          "row_count": 1446,
+          "schema_sha256": "d7f0fb1ed6f878701c815297b149200ebce57d5be38a3d30fa17fd00d702d1f1"
+        },
+        "extra_info": {
+          "content_sha256": "194b99c7a01f8f9d5ae61fd59e1da9b112ff95c7f90015774baf82681d0f94ed",
+          "row_count": 1054,
+          "schema_sha256": "d1c1ef01d41dc13c2bfff036a264a4086599c0ef553d5d9781a9aef0e434d6eb"
+        },
+        "import_log": {
+          "content_sha256": "a92cea090ca2ece6de4a03b8510db990e57074cf9719a4ff2adf0d9837491ec3",
+          "row_count": 0,
+          "schema_sha256": "4f433fabf09f2223dd477ec4829a41fb4bd311a17a6afcef9214c63585b42dc4"
+        },
+        "mechanic_descriptor": {
+          "content_sha256": "a92cea090ca2ece6de4a03b8510db990e57074cf9719a4ff2adf0d9837491ec3",
+          "row_count": 0,
+          "schema_sha256": "e3038ffc6357a674e4daf6ea5d93b071704ed0723b9472024122ecba8cba7042"
+        },
+        "mechanic_semantic_fact": {
+          "content_sha256": "a92cea090ca2ece6de4a03b8510db990e57074cf9719a4ff2adf0d9837491ec3",
+          "row_count": 0,
+          "schema_sha256": "30fbb118c7bfb35f2b65a9045a2f4baeeec50addc654a94ee05b656a219aa6f7"
+        },
+        "mechanic_semantic_head": {
+          "content_sha256": "a92cea090ca2ece6de4a03b8510db990e57074cf9719a4ff2adf0d9837491ec3",
+          "row_count": 0,
+          "schema_sha256": "5286345e49eba315a8d06db4945749a83f71d70586979a35a556a5ecef17ccb8"
+        },
+        "meta": {
+          "content_sha256": "6d4ec1de6ba5837b52a4df10a2755f6067e1e162a5db9fb9574f3d6719e52745",
+          "row_count": 29,
+          "schema_sha256": "b86b68e9d9a845b411e9526239b62d9db172c3df0ba3c931619f40c03fb8b0c1"
+        },
+        "raw_table": {
+          "content_sha256": "c642d7466a0abd6507ebd5534cf1fd19ab7bcb4ad54ac60a6dc33b73d8c77ec1",
+          "row_count": 20,
+          "schema_sha256": "6791c61502b1150719a56fd9d9e43bcaeaf847a7df1043319ce77d014bd18c8c"
+        },
+        "runtime_definition": {
+          "content_sha256": "97cbc41d2f2a6c280cc5fbd5434138c49e17dccaeebccb7a7e53dc51ec317ab9",
+          "row_count": 214076,
+          "schema_sha256": "3e821fb457c73bfa719006d1b7696aa5eb747dbc61a0487478afb465acd96623"
+        },
+        "runtime_material_reference": {
+          "content_sha256": "be9ae54a102f8e39f723ab5e7c3fac8d27d8b9142bb7f56a30d47cbf2cf69d47",
+          "row_count": 427,
+          "schema_sha256": "30032b905cfa390401740877c39446d65c24b4d9f761bcd805b96f5a8b7d6009"
+        },
+        "runtime_object_reference": {
+          "content_sha256": "d05b51fc1547f62b33e50d3b4e064881e118070034aca856d7173f1c8446a18c",
+          "row_count": 63563,
+          "schema_sha256": "fd0dc7dfd8e90303e42a5d54f348decc47fd894aea7a0b686d6b070bf0923a76"
+        },
+        "runtime_parameter_binding": {
+          "content_sha256": "24ce71fe873fbeb1f219ee7570459e8b3a50d79f407047dda9d0347e98b701ef",
+          "row_count": 6240,
+          "schema_sha256": "42cf3aa3f4ec35afa8206e9b0dde864d2da66f4119b2ff86d855f98244b2a5d1"
+        },
+        "runtime_reference": {
+          "content_sha256": "6d20d0c5f0e822ca244b8c313a66c408d415385607a2f1c99ba2bd1d7c4651d7",
+          "row_count": 169462,
+          "schema_sha256": "627e676ae8f2f2befc5a869ca4e56638e4f372b00f29b478749af4663dd85491"
+        },
+        "runtime_source": {
+          "content_sha256": "d8159476292aebe75e30698674fe044d3d355cd25cffa7f9fd187339b3722d1e",
+          "row_count": 2754,
+          "schema_sha256": "bfabec82bd6b971407bee35bfe9252341e58c7539a6c8a4e7fef6cb48cbbbb07"
+        },
+        "skill": {
+          "content_sha256": "5a743b148300a09fdfe88638490c31a764cb93e6c5985bb6f28dd7ad8c3eed4e",
+          "row_count": 442,
+          "schema_sha256": "368c4dbe1a0a4da5cbb0348de1129397a69a99681aa20d1e6e2b2c998d1d65b9"
+        },
+        "skill_param": {
+          "content_sha256": "83de5d8675af7c6e557f05b05153e1678622861055d814fe810833be9b2a37a4",
+          "row_count": 1256,
+          "schema_sha256": "59475fdd683f6d79e21774b9719ab04da5d35a5ca73b8b0b082554432671b2e8"
+        },
+        "source_manifest": {
+          "content_sha256": "9725c394242909a6e392236f33bc0b30e1d9a54cdd633242a9287eebf7cace04",
+          "row_count": 2774,
+          "schema_sha256": "8477ed0e7ccaf4724977753cfa8e3db8eb4d0927950919004656a909f6b99a81"
+        },
+        "talent": {
+          "content_sha256": "b235da03aec13795c921fa946dfd3fd355fd1db7d34b2983ae27a39e26779c5e",
+          "row_count": 834,
+          "schema_sha256": "dcf7bccdb320b13f38b6d1c8b072d7effbc308255c8ad13d9181226b24072a4c"
+        },
+        "text_map": {
+          "content_sha256": "0c383486cf6fe7322a0dd11d2cc543ad650ca88b45e7cce73bd33fb17ada7b5a",
+          "row_count": 249268,
+          "schema_sha256": "cd2726b74091f5560cf360a13092b484b574583b2ecdff4b24d4e095d6c992b8"
+        },
+        "weapon": {
+          "content_sha256": "73fd1efbfb4c417fd84be996ad6a9c938e48801eba820f5b865d5cb9c148ff93",
+          "row_count": 291,
+          "schema_sha256": "c39ea72669349a042185646157aa21f35c270fb3d203d434d056848d4415f37a"
+        },
+        "weapon_codex": {
+          "content_sha256": "3d6dce4c6aa11fce1b2fecb2121dd86ecd2eb0e707bcd8e5ce975e89b055f80e",
+          "row_count": 259,
+          "schema_sha256": "461f8d50a8cda8a3e7fb2d6a120d9be57993778862c831d7b67f56b11893ed79"
+        },
+        "weapon_curve": {
+          "content_sha256": "eb93182bad8c682f5a4aa78c4303c187c51254229ce686c5169b98ddc1e2a39f",
+          "row_count": 1800,
+          "schema_sha256": "48e5f4f331f3ef1af4d76f6a889f2f66491e628fb09f8a22a7a7015e4faf776c"
+        },
+        "weapon_effect": {
+          "content_sha256": "ff55334dea22a18248e16a6dbc5ad9ae4adddecec9cbb0e24673f132f11da4a2",
+          "row_count": 1242,
+          "schema_sha256": "17f7998aa3d70dd0170e378d0e4b2f320e2f54bdf47380236206a7ccda3f2c05"
+        },
+        "weapon_promote": {
+          "content_sha256": "cb373420e3c63fab74d433a95a809199d4ffca0833880bb5cb77618e64fd8e4c",
+          "row_count": 1842,
+          "schema_sha256": "ba7345c02cb1343c439d853632922fe452c4827bc06cabe2ff67afbc182941ad"
+        },
+        "weapon_property": {
+          "content_sha256": "054217036df16a1142c9b8dd7fbe91ea4c100eea0710f738879fd03697a9a4f4",
+          "row_count": 582,
+          "schema_sha256": "0a74d4b6bd1d631862387694e9bb6f35ef01b66bddc64eac9db0f052e7fbfc44"
+        }
+      }
+    },
+    "sha256": "27e6e2a85b8f11e0c646fc6ead9aa40671e5ceedcecae17b479f5e8017f13dca",
+    "size_bytes": 653926400,
+    "upstream_commit": "f11cf545a7eee32a29999f960ebfba305f896ed3",
+    "upstream_track": "CNCBWin",
+    "upstream_updated_at": "2026-11-04T12:47:50-03:00",
+    "upstream_version_evidence": {
+      "configuration_trees": {
+        "BinOutput": "58370f53a45c685f6e44345dd1ff4a6eae40e6e4",
+        "ExcelBinOutput": "b785ff60479a739a6e5f82bdf6c62a19dd86b529"
+      },
+      "evidence_commit": "f11cf545a7eee32a29999f960ebfba305f896ed3",
+      "evidence_fingerprint": "dca2b216d557fa769bb04458ad9418686097b235ee30bcb4c080b8f6915a495a",
+      "evidence_kind": "snapshot_commit_subject",
+      "issues": [],
+      "raw_version": "CNCBWin7.2.50",
+      "readme_version": null,
+      "resolver_version": 1,
+      "review_id": null,
+      "snapshot_commit": "f11cf545a7eee32a29999f960ebfba305f896ed3",
+      "snapshot_updated_at": "2026-11-04T12:47:50-03:00",
+      "source_trees": {
+        "BinOutput": "58370f53a45c685f6e44345dd1ff4a6eae40e6e4",
+        "ExcelBinOutput": "b785ff60479a739a6e5f82bdf6c62a19dd86b529",
+        "TextMap": "d786fae3dd49d7c1811e4765e97afd0e0e1fc049"
+      },
+      "status": "resolved",
+      "track": "CNCBWin",
+      "version": "7.2.50",
+      "version_evidence_ready": true
+    },
+    "version_lines": [
+      "release"
+    ]
+  },
+  "database_release_id": "db-7.2.50-r5",
+  "download": null,
+  "logic_profile": "genshin-calculation-v1",
+  "published_at": "2026-11-04T12:47:50-03:00",
+  "release_sequence": 7,
+  "released_at": "2026-11-04T12:47:50-03:00",
+  "schema_version": 3
+}

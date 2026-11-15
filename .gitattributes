@@ -1,0 +1,2 @@
+# Preserve the exact bytes authenticated by SOURCE-SNAPSHOT and runtime manifests.
+* -text

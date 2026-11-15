@@ -1,0 +1,146 @@
+{
+  "contract": "genshin-public-source-snapshot-v1",
+  "repository": "database",
+  "source_revision": "842a7b6ea7b7fa116a5e8f08266a3a2a9a4878d5",
+  "rules_sha256": "2f1d604fd9a4f405d987a6592ebe8b370e715848351f0c8550b19375f638c1e2",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "source_path": "docs/publication/public-main/.gitattributes",
+      "sha256": "25da197a67cbd452b8f1d6cdde3095e1560b50ad75186658b714d7e78ffea7d8",
+      "bytes": 91,
+      "origin": "untracked",
+      "selection": "curated_overlay",
+      "review": []
+    },
+    {
+      "path": ".gitignore",
+      "source_path": "docs/publication/public-database/.gitignore",
+      "sha256": "4d8487811b68b9b16d20b3de5d43f79e894c9d957f9861dcd112e9d4444c4245",
+      "bytes": 88,
+      "origin": "untracked",
+      "selection": "curated_overlay",
+      "review": []
+    },
+    {
+      "path": "CHANGELOG.md",
+      "source_path": "docs/publication/public-database/CHANGELOG.md",
+      "sha256": "b0c280df28d010ffc95cc7e6cb0c2184d869b227a9774d1b92041ad385573493",
+      "bytes": 2002,
+      "origin": "untracked",
+      "selection": "curated_overlay",
+      "review": []
+    },
+    {
+      "path": "README.md",
+      "source_path": "docs/publication/public-database/README.md",
+      "sha256": "3a441586db41605078489a2f2255577577ac39542a6a8983459607ca09c6bfee",
+      "bytes": 1847,
+      "origin": "untracked",
+      "selection": "curated_overlay",
+      "review": []
+    },
+    {
+      "path": "docs/data-status-and-disclaimer.md",
+      "source_path": "docs/publication/public-main/docs/data-notice.md",
+      "sha256": "cd1e70f7a9666e21f9e7b842c1d30a3be5da7cfc32451b406e6567bcc09dd013",
+      "bytes": 1535,
+      "origin": "untracked",
+      "selection": "curated_overlay",
+      "review": []
+    },
+    {
+      "path": "docs/maintenance.md",
+      "source_path": "docs/publication/public-database/docs/maintenance.md",
+      "sha256": "02d4576fe952537297e73dd492563ebae4aed1cc25e9feae9c8ce7dfe2a4940f",
+      "bytes": 1399,
+      "origin": "untracked",
+      "selection": "curated_overlay",
+      "review": []
+    },
+    {
+      "path": "docs/query-guide.md",
+      "source_path": "docs/publication/public-database/docs/query-guide.md",
+      "sha256": "1b2a79fc854323cead65677673e701c599a57c0067220d6aecddf12e88ef17e0",
+      "bytes": 850,
+      "origin": "untracked",
+      "selection": "curated_overlay",
+      "review": []
+    },
+    {
+      "path": "docs/sources.md",
+      "source_path": "docs/publication/public-database/docs/sources.md",
+      "sha256": "6ab5737b968ceaf4ebcbe0964519900ae0797754810aac0470db7576838ec349",
+      "bytes": 1048,
+      "origin": "untracked",
+      "selection": "curated_overlay",
+      "review": []
+    },
+    {
+      "path": "knowledge/README.md",
+      "source_path": "docs/publication/public-database/knowledge/README.md",
+      "sha256": "a19ec338896902e73a2f79b87f2be9564e0e19655dbd53e5b19f95de9d8c756d",
+      "bytes": 369,
+      "origin": "untracked",
+      "selection": "curated_overlay",
+      "review": []
+    },
+    {
+      "path": "releases/README.md",
+      "source_path": "docs/publication/public-database/releases/README.md",
+      "sha256": "b64ac421ad3f4658e08d915514d83b5ac17bd45b6d8c5747045111ccc9d1b9ab",
+      "bytes": 874,
+      "origin": "untracked",
+      "selection": "curated_overlay",
+      "review": []
+    },
+    {
+      "path": "releases/db-7.2.50-r5/README.md",
+      "source_path": "docs/publication/public-database/releases/db-7.2.50-r5/README.md",
+      "sha256": "e2f4249ac0f75f5f735b953e96a0fda871b36cee227d3510fb2b5508a76a82cf",
+      "bytes": 1011,
+      "origin": "untracked",
+      "selection": "curated_overlay",
+      "review": []
+    },
+    {
+      "path": "releases/db-7.2.50-r5/database-release-manifest.json",
+      "source_path": "docs/publication/public-database/releases/db-7.2.50-r5/database-release-manifest.json",
+      "sha256": "ceb25c0d7d2bec80ae373c5295efdde474fa123d0dd54de167399c697e9ef8fb",
+      "bytes": 19219,
+      "origin": "untracked",
+      "selection": "curated_overlay",
+      "review": []
+    },
+    {
+      "path": "releases/db-7.2.50-r6/README.md",
+      "source_path": "docs/publication/public-database/releases/db-7.2.50-r6/README.md",
+      "sha256": "bf93ed446dd26ce198a27d7979532225432de71b4c22b076a71009d2a9bdb3f6",
+      "bytes": 1314,
+      "origin": "untracked",
+      "selection": "curated_overlay",
+      "review": []
+    },
+    {
+      "path": "releases/db-7.2.50-r6/database-release-manifest.json",
+      "source_path": "docs/publication/public-database/releases/db-7.2.50-r6/database-release-manifest.json",
+      "sha256": "39c97cf535c2dc26290a5922d6c01e209dedd5e6292e1b821d9ebebcf94eb54b",
+      "bytes": 19222,
+      "origin": "untracked",
+      "selection": "curated_overlay",
+      "review": []
+    },
+    {
+      "path": "schemas/README.md",
+      "source_path": "docs/publication/public-database/schemas/README.md",
+      "sha256": "1fbb8befa8cf3844247e858638bf2e853f45e597c26f895b67563ed8262a0631",
+      "bytes": 463,
+      "origin": "untracked",
+      "selection": "curated_overlay",
+      "review": []
+    }
+  ],
+  "excluded": [],
+  "status": "copied",
+  "reviewed_files": {}
+}
