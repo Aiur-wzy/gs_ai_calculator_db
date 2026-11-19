@@ -1,5 +1,7 @@
 # 原神拉表游戏数据库
 
+当前推荐数据库为 **db-7.2.52-r1**。[查看本版说明](releases/db-7.2.52-r1/README.md)。
+
 本仓为[原神拉表](https://github.com/Aiur-wzy/gs_ai_calculator)提供游戏资料的来源、版本与发布说明。首个正式数据库为 **db-7.2.50-r6**，首发配套 App **0.46.0-r19**，上游资料快照为 **7.2.50**。r6 沿用 r5 已核对的 SQLite 内容。
 
 完整的数据库压缩包、校验值和签名配对以[数据库发行页](https://github.com/Aiur-wzy/gs_ai_calculator_db/releases)实际提供的附件为准。一般用户通过 App 小安装器或应用内下载获得配套数据库。仓库源码 ZIP 保存说明和清单，数据库 SQLite 作为发行附件提供。

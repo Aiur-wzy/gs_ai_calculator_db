@@ -25,8 +25,8 @@
     {
       "path": "CHANGELOG.md",
       "source_path": "docs/publication/public-database/CHANGELOG.md",
-      "sha256": "b0c280df28d010ffc95cc7e6cb0c2184d869b227a9774d1b92041ad385573493",
-      "bytes": 2002,
+      "sha256": "cd33405418d1548f402324b8410e208e0b72346271c54795cc9a77903ea6eff1",
+      "bytes": 2232,
       "origin": "untracked",
       "selection": "curated_overlay",
       "review": []
@@ -34,8 +34,8 @@
     {
       "path": "README.md",
       "source_path": "docs/publication/public-database/README.md",
-      "sha256": "3a441586db41605078489a2f2255577577ac39542a6a8983459607ca09c6bfee",
-      "bytes": 1847,
+      "sha256": "204bba4dd998b3727044a7ec443d5a66b29a7f8a67421c425adcc183cd0e34b2",
+      "bytes": 1967,
       "origin": "untracked",
       "selection": "curated_overlay",
       "review": []
@@ -88,8 +88,8 @@
     {
       "path": "releases/README.md",
       "source_path": "docs/publication/public-database/releases/README.md",
-      "sha256": "b64ac421ad3f4658e08d915514d83b5ac17bd45b6d8c5747045111ccc9d1b9ab",
-      "bytes": 874,
+      "sha256": "aab57f13937926655e411a89ee5abcdf6fac0fef39e12a96733f8b017f28c7be",
+      "bytes": 943,
       "origin": "untracked",
       "selection": "curated_overlay",
       "review": []
@@ -129,6 +129,24 @@
       "origin": "untracked",
       "selection": "curated_overlay",
       "review": []
+    },
+    {
+      "path": "releases/db-7.2.52-r1/README.md",
+      "source_path": "docs/publication/public-database/releases/db-7.2.52-r1/README.md",
+      "origin": "untracked",
+      "selection": "curated_overlay",
+      "review": [],
+      "bytes": 206,
+      "sha256": "5913db5ffa7c38796b353624ecf8ce499b75a36214abccbc1ec8d2a06f71ec73"
+    },
+    {
+      "path": "releases/db-7.2.52-r1/database-release-manifest.json",
+      "source_path": "release-inputs/1.0.3/database-release-manifest.json",
+      "origin": "untracked",
+      "selection": "curated_overlay",
+      "review": [],
+      "bytes": 19222,
+      "sha256": "c309295ee2fd8378d17b121148b2cbdde303a0d0fc9e3150246f616ec8127519"
     },
     {
       "path": "schemas/README.md",
