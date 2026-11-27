@@ -1,5 +1,7 @@
 # 获取并核对发行
 
+[db-7.2.54-r1](db-7.2.54-r1/README.md) 配套 App 1.0.4-r2。
+
 [db-7.2.52-r1](db-7.2.52-r1/README.md) 配套 App 1.0.3。
 
 在[数据库发行页](https://github.com/Aiur-wzy/gs_ai_calculator_db/releases)获取带版本的数据库归档、发行清单与校验值。在[应用发行页](https://github.com/Aiur-wzy/gs_ai_calculator/releases)选择版本时，查阅应用发行说明中的数据库兼容范围。实际自动安装或更新以应用渠道核验通过的组合为准。

@@ -25,8 +25,8 @@
     {
       "path": "CHANGELOG.md",
       "source_path": "docs/publication/public-database/CHANGELOG.md",
-      "sha256": "cd33405418d1548f402324b8410e208e0b72346271c54795cc9a77903ea6eff1",
-      "bytes": 2232,
+      "sha256": "2c977b0ed64429e3c7f677c29ca9efa8c2a40990194af36a1dd4619a6e59dc78",
+      "bytes": 2485,
       "origin": "untracked",
       "selection": "curated_overlay",
       "review": []
@@ -34,7 +34,7 @@
     {
       "path": "README.md",
       "source_path": "docs/publication/public-database/README.md",
-      "sha256": "204bba4dd998b3727044a7ec443d5a66b29a7f8a67421c425adcc183cd0e34b2",
+      "sha256": "93eaf7dedf9b206ee443c7a4201a916967b7f9f5783e8d03a73706b512ff71a5",
       "bytes": 1967,
       "origin": "untracked",
       "selection": "curated_overlay",
@@ -88,8 +88,8 @@
     {
       "path": "releases/README.md",
       "source_path": "docs/publication/public-database/releases/README.md",
-      "sha256": "aab57f13937926655e411a89ee5abcdf6fac0fef39e12a96733f8b017f28c7be",
-      "bytes": 943,
+      "sha256": "61a0b6fd80c3be143d27210935c6a8f020de64c0cb51b170e4e4fc45d69d7dde",
+      "bytes": 1006,
       "origin": "untracked",
       "selection": "curated_overlay",
       "review": []
@@ -147,6 +147,24 @@
       "review": [],
       "bytes": 19222,
       "sha256": "c309295ee2fd8378d17b121148b2cbdde303a0d0fc9e3150246f616ec8127519"
+    },
+    {
+      "path": "releases/db-7.2.54-r1/README.md",
+      "source_path": "releases/db-7.2.54-r1/README.md",
+      "origin": "untracked",
+      "selection": "allowlist",
+      "sha256": "59d398586b2f84923a2c4cf13aa6dc9296539b8e66be41c26ce4652b3f86bd8a",
+      "bytes": 251,
+      "review": []
+    },
+    {
+      "path": "releases/db-7.2.54-r1/database-release-manifest.json",
+      "source_path": "releases/db-7.2.54-r1/database-release-manifest.json",
+      "origin": "untracked",
+      "selection": "allowlist",
+      "sha256": "cbdf1005598edeb4a952729b65c77052e3d29e1391eda228e5eca2c2b25ca12b",
+      "bytes": 19223,
+      "review": []
     },
     {
       "path": "schemas/README.md",
